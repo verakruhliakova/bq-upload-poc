@@ -1,0 +1,1 @@
+loadtest http://localhost:3000/ -t 600 -d 10 --rps 1000 -p test/eventGenerator.js -m POST -T application/json
